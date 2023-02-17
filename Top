@@ -41,10 +41,10 @@ local Tab = Window:NewTab("Abillityfire")
 local Section = Tab:NewSection("Abillity fire")
 
 -- Заголовок
-Section:NewLabel("LabelText")
+Section:NewLabel("Abbilki")
 
 -- Кнопка
-Section:NewButton("Reverse abillka", "ButtonInfo", function()
+Section:NewButton("Reverse abillka", "Use reverse glove abillku with out cooldown", function()
 	game:GetService("ReplicatedStorage").ReverseAbility:FireServer(true)
 end)
 
